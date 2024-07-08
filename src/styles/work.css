@@ -1,0 +1,151 @@
+.work{
+    height: auto;
+}
+.cards .card{
+    width: 60%;
+    height: 400px;
+    /* background-color: rgb(245, 245, 245); */
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all .40s ease;
+    margin: 100px auto;
+}
+
+.cards .card .left-text{
+     width: 50%;
+     height: 100%;
+     position: relative;
+     margin-right: 50px;
+}
+
+.cards .card .left-text h2{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 25%;
+    left: 35px;
+}
+
+.cards .card .left-text p{
+    font-size:18px;
+    line-height: 28px;
+    font-family: sans-serif;
+    font-weight: 500;
+    position: absolute;
+    bottom: 30%;
+    left: 35px;
+}
+
+.cards .card .left-text button{
+    position: absolute;
+    bottom: 40px;
+    left: 35px;
+    padding: 14px 44px;
+    border-radius: 15px;
+    background-color: rgb(75, 75, 255);
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    transition: all .40s ease;
+}
+
+.cards .card .left-text button:hover{
+    transform: scale(1.08);
+}
+
+.cards .card .right-img img{
+    width: 100%;
+    height: 320px;
+    border-radius: 25px;
+    margin-left: -20px;
+}
+
+@media (max-width: 1495px) {
+    .cards .card{
+        width: 62%;
+    }
+    .cards .card .left-text{
+        width: 50%;
+        padding: 20px;
+    }
+}
+
+
+@media (max-width: 1435px) {
+    .cards .card{
+        width: 70%;
+    }
+    .cards .card .left-text{
+        width: 40%;
+        padding: 0 40px ;
+    }
+}
+@media (max-width: 1230px) {
+    section{
+        height: auto;
+    }
+
+    .cards{
+        margin-top: 11%;
+    }
+
+    .cards .card{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        width: 640px;
+        height: 600px;
+        margin-top: 50px;
+    }
+
+    .cards .card .left-text{
+        position: static;
+        width: 90%;
+        margin-top: 5%;
+    }
+    .cards .card .left-text h2{
+        position: static;
+    }
+    .cards .card .left-text p{
+        position: static;
+        margin-top: 15px;
+    }
+
+    .cards .card .left-text button{
+        position: static;
+        margin-top: 20px;
+    }
+
+    .cards .card .right-img img{
+        width: 95%;
+        height: 320px;
+        border-radius: 25px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+}
+
+
+@media (max-width: 685px) {
+    .cards .card{
+        max-width: 680px;
+        width: 90%;
+        height: 600px;
+    }
+
+    .cards .card .left-text{
+        margin-top: 80px;
+    }
+
+    .cards .card .right-img img{
+        max-width: 650px;
+        width: 95%;
+        margin: 20px 2%;
+        height: 110%;
+    }
+}

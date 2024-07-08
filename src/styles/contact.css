@@ -1,0 +1,36 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+}
+.input{
+    border-radius: 15px;
+    padding: 12px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+    outline: none;
+}
+#msg{
+    width: 23%;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+}
+#send:hover{
+    cursor: pointer;
+    box-shadow: 0 0 20px white;
+}
+#send{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0px;
+    margin-top: 40px;
+    transition: all .5s;
+    color: #6c7b86;
+}

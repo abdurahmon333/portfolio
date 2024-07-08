@@ -1,0 +1,53 @@
+.adminform{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.adminform .name h1{
+    margin: 50px auto;
+}
+
+.adminform input{
+    width: 52%;
+    height: 36px;
+    font-size: 18px;
+    padding: 5px 20px;
+    font-weight: 600;
+    border: 2px solid black;
+    margin: 20px 0;
+    border-radius: 10px;    
+    display: flex;
+    align-items: center;
+}
+
+.adminform textarea{
+    min-width: 52%;
+    max-width: 380px;
+    width: 100%;
+    min-height: 200px;
+    max-height: 200px;
+    height: 100%;
+    font-size: 18px;
+    padding: 5px 20px;
+    font-weight: 600;
+    border: 2px solid black;
+    margin: 10px 0 ;
+    border-radius: 10px;
+}
+
+.button{
+    width: 200px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: rgb(88, 88, 255);
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    transition: all .40s ease;
+    cursor: pointer;
+}
